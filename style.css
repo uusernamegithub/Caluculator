@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+   width:100%;
+   height:100vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #0D1B2A;
+}
+.caluculator{
+    background-color: #415A77;
+    padding:15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #E0E1DD;
+
+}
+input{
+    width:200px;
+    height:30px;
+    border-radius: 10px;
+    padding:20px;
+    text-align: right;
+    border:none;
+    margin:10px;
+    font-size:30px;
+    color:#0D1B2A;
+    background:transparent;
+    box-shadow: 0px 0px 5px #E0E1DD;
+    cursor:pointer;
+}
+
+.row{
+    display:flex;
+    justify-content: space-evenly;
+}
+button{
+    width:50px;
+    height:50px;
+    margin:5px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 0px 0px 5px #E0E1DD;
+    cursor:pointer;
+    color:#E0E1DD;
+    font-size: 20px;
+}
+.coloured{
+    background-color:#f77f00;
+    color:black;
+}
+.op{
+   color:chartreuse;
+}
+
